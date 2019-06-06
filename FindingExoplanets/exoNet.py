@@ -44,8 +44,8 @@ def shuffle_data(x, y):
     return Xarray, Yarray
 
 def main():
-    train_df = pd.read_csv("./datasets/exoTrain.csv", encoding = "ISO-8859-1")
-    test_df = pd.read_csv("./datasets/exoTest.csv", encoding = "ISO-8859-1")
+    train_df = pd.read_csv("../datasets/exoTrain.csv", encoding = "ISO-8859-1")
+    test_df = pd.read_csv("../datasets/exoTest.csv", encoding = "ISO-8859-1")
 
     print(train_df)
 
